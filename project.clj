@@ -1,4 +1,4 @@
-(defproject dca-tec/js-utils "0.0.1-SNAPSHOT"
+(defproject dca-tec/js-utils "0.0.02-SNAPSHOT"
   :description "A set of basic general purpose functions to work in a JavaScript environment."
   :license {:name "MIT Licence"
             :url "https://opensource.org/licenses/MIT"}
