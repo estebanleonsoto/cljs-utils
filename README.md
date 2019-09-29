@@ -1,3 +1,4 @@
+[![Clojars Project](https://img.shields.io/clojars/v/dca-tec/js-utils.svg)](https://clojars.org/dca-tec/js-utils)
 # dca-tec.js-utils
 
 A ClojureScript library that provides a set of basic utility functions and wrappers for
