@@ -28,13 +28,12 @@
       (is (nil? (jsu/getElementById! "non existing id"))))
     (testing
       "Register a (message) window event listener and wait for the handler to react when a message is posted to window."
-      (let [message-promise (async/chan)
-            handler (fn [] (async/put! message-promise "MessageReceived"))]
+      (let [message-channel (async/chan)
+            handler (fn [] (async/put! message-channel "MessageReceived"))]
         (jsu/registerWindowEvent! "message" handler)
         (.postMessage js/window "hi")
-        (async/take! message-promise #(is (= "MessageReceived" %)))))
+        (async/take! message-channel #(is (= "MessageReceived" %)))))
     (testing
       "Registering a window event of a type that doesn't exist has no effect"
-      (jsu/registerWindowEvent! "bogusEventName" #()))
-    (testing
-      )))
+      (jsu/registerWindowEvent! "bogusEventName" #()))))
+
