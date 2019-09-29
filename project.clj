@@ -35,5 +35,8 @@
   :codox
     {:language :clojurescript
      :output-path "docs/codox"
-     :source-uri "https://github.com/tatut/tuck/blob/master/{filepath}#L{line}"})
+     :source-uri "https://github.com/tatut/tuck/blob/master/{filepath}#L{line}"}
+
+  :scm {:name "git"
+        :url "https://github.com/estebanleonsoto/cljs-utils"})
 

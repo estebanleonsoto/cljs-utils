@@ -1,4 +1,5 @@
 [![Clojars Project](https://img.shields.io/clojars/v/dca-tec/js-utils.svg)](https://clojars.org/dca-tec/js-utils)
+[![](https://cljdoc.org/badge/re-frame)](https://cljdoc.org/jump/release/re-frame)
 # dca-tec.js-utils
 
 A ClojureScript library that provides a set of basic utility functions and wrappers for
