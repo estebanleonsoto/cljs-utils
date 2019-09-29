@@ -1,14 +1,17 @@
 # dca-tec.js-utils
 
-A ClojureScript library designed to ... well, that part is up to you.
+A ClojureScript library that provides a set of basic utility functions and wrappers for
+basic java-script and dom-related work.
 
 ## Usage
 
-FIXME
+# Unit test:
+    lein test :only dca-tec.chrome-test/run-chrome-test
 
 ## License
 
-Copyright © 2019 FIXME
+Copyright © 2019 dca-tec UG (haftungsbeschränkt)
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the MIT License.
+
+
